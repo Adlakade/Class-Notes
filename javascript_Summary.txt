@@ -1,0 +1,159 @@
+------------------------💡 JavaScript Summary-------------------
+JavaScript is a high-level, interpreted programming language primarily used to make web pages interactive.
+
+--------------------🔧 Key Features:
+Client-Side Language (runs in the browser)
+
+Supports event-driven, functional, and object-oriented programming
+
+Dynamically typed (no need to declare variable types)
+
+Works well with HTML and CSS for front-end development
+
+Can also be used on the server-side (Node.js)
+
+---------------📚 Basic Syntax:
+javascript
+Copy
+Edit
+let name = "John";  // variable
+function greet() {
+  console.log("Hello " + name);
+}
+greet();
+-----------------------🧱 Core Concepts:
+Variables (var, let, const)
+
+Data Types: string, number, boolean, object, null, undefined, symbol, bigint
+
+Operators: +, -, ===, &&, etc.
+
+Control Flow: if, else, switch, for, while
+
+Functions: regular, arrow functions (()=>)
+
+Objects and Arrays
+
+DOM Manipulation: Access & modify HTML dynamically
+
+Events: Respond to user actions like clicks or keypresses
+
+Asynchronous JS: setTimeout, Promises, async/await
+
+-----------------🌐 Where JavaScript is Used:
+Frontend web development (along with HTML/CSS)
+
+Backend development (Node.js)
+
+Mobile apps (React Native)
+
+Desktop apps (Electron)
+
+Game development
+
+Web APIs and IoT
+
+
+
+--------------🕰️ History of JavaScript---------------------------------
+📌 1995 – Birth of JavaScript
+Created by Brendan Eich at Netscape Communications.
+
+Originally named Mocha, then LiveScript, and finally JavaScript (to ride on Java’s popularity, though they are very different).
+
+⏱ It was created in just 10 days!
+
+📌 1996 – Standardization Starts
+JavaScript was submitted to ECMA International.
+
+Resulted in the creation of the ECMAScript standard (official language name).
+
+📌 1997 – ECMAScript 1
+First standardized version of JavaScript as ECMAScript (ES1).
+
+📌 1999 – ES3 Released
+Introduced regular expressions, try/catch, and other core features.
+
+Widely adopted and used for many years.
+
+----------------📌 2009 – ES5
+Big update: strict mode, JSON support, Array methods (forEach, map, filter).
+
+Brought better browser compatibility and performance.
+
+----------------📌 2015 – ES6 (ES2015): Major Evolution
+Most important update in JS history.
+
+Introduced:
+
+let, const
+
+Arrow functions (() => {})
+
+Classes
+
+Modules (import/export)
+
+Promises
+
+Template literals
+
+Destructuring
+
+Default + Rest parameters
+
+📌 2016–Present – Yearly Updates
+New version released every year (ES2016, ES2017, ...).
+
+Features added:
+
+async/await (ES2017)
+
+Optional chaining ?.
+
+Nullish coalescing ??
+
+Array.flat()
+
+Top-level await
+
+#private class fields
+
+Records & Tuples (in progress)
+
+📌 JavaScript Today
+Runs on browsers, servers (Node.js), mobile apps, IoT, and desktop apps.
+
+Powering frameworks like React, Angular, Vue, and backend tools like Express.js.
+
+JavaScript is one of the most widely used and versatile languages in the world.
+
+------------------------------------------------------------------------
+
+javascript is higher level programming language, which is interpreted. JS support both approches (POP, OOP).
+
+scope: web development(ExpressReactNode), mobile development(React Native), desktop development(Electron.js)
+
+client side js / server side js
+
+interpreter(client web browser)
+
+compiled (compiler (troub c++, dev cpp)) / interpreted (interpreter, )
+
+line 1 
+line 2 
+line 3 
+line 4 
+line 5
+
+dynamically typed language (JS, Python) / Static typed language(C , C++, JAVA, TypeScritp)
+
+while creating data we will have define the data type
+
+int age 
+string name
+
+let age = 10
+let age = "ten" 
+
+data type will be determined at the runtime
