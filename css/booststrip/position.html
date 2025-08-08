@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <style>
+      body {
+        height: 200vh;
+      }
+      .parent {
+        height: 400px;
+        width: 400px;
+        background-color: aquamarine;
+      }
+      .child {
+        height: 100px;
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sticky position-sticky top-50">
+      <div class="parent position-relative mx-auto mt-5">
+        <div
+          class="child rounded-start bg-danger position-absolute start-50 top-50 translate-middle"
+        ></div>
+        <div
+          class="child rounded-circle bg-danger position-absolute start-0 top-0 translate-middle"
+        ></div>
+        <div
+          class="child rounded-circle bg-danger position-absolute start-100 top-100 translate-middle"
+        ></div>
+        <div
+          class="child rounded-circle bg-danger position-absolute start-100 top-0 translate-middle"
+        ></div>
+        <div
+          class="child rounded-circle bg-danger position-absolute start-0 top-100 translate-middle"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>

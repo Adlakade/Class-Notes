@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <style>
+      .parent {
+        height: auto;
+        width: 400px;
+      }
+      .child {
+        height: 100px;
+        width: 100px; 
+      }
+      .containerfluid {
+        height: 500px;
+        width: auto;
+        border: 1px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container parent border border-3 border-black d-flex gap-2 flex-row flex-lg-column flex-wrap"
+    >
+      <div
+        class="child child1 border border-1 border-dark d-flex justify-content-center bg-info"
+      >
+        <p class="my-auto">1</p>
+      </div>
+      <div
+        class="child child1 border border-1 border-dark d-flex justify-content-center bg-success"
+      >
+        <p class="my-auto">2</p>
+      </div>
+      <div
+        class="child child1 border border-1 border-dark d-flex justify-content-center bg-primary"
+      >
+        <p class="my-auto">3</p>
+      </div>
+      <div
+        class="child child1 border border-1 border-dark d-flex justify-content-center bg-warning"
+      >
+        <p class="my-auto">4</p>
+      </div>
+    </div>
+  </body>
+</html>
